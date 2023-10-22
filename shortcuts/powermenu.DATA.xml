@@ -3,41 +3,41 @@
     <shortcut>
         <label2>Power Menu Shortcut</label2>
         <label>$LOCALIZE[20183]</label>
-        <action>ReloadSkin()</action>
+        <action>ReloadSkin</action>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>
     <shortcut>
         <label2>Power Menu Shortcut</label2>
         <label>13012</label>
-        <action>XBMC.Quit()</action>
+        <action>Quit</action>
         <visible>System.ShowExitButton</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>
     <shortcut>
         <label2>Power Menu Shortcut</label2>
         <label>13016</label>
-        <action>XBMC.Powerdown()</action>
+        <action>Powerdown</action>
         <visible>System.CanPowerDown</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>
     <shortcut>
         <label2>Power Menu Shortcut</label2>
         <label>13011</label>
-        <action>XBMC.Suspend()</action>
+        <action>Suspend</action>
         <visible>System.CanSuspend</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>
     <shortcut>
         <label2>Power Menu Shortcut</label2>
         <label>13010</label>
-        <action>XBMC.Hibernate()</action>
+        <action>Hibernate</action>
         <visible>System.CanHibernate</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>
     <shortcut>
         <label2>Power Menu Shortcut</label2>
         <label>13013</label>
-        <action>XBMC.Reset()</action>
+        <action>Reset</action>
         <visible>System.CanReboot</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>
