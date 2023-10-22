@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="10140">
-    <defaultcontrol always="true">9</defaultcontrol>
+    <defaultcontrol always="true">3</defaultcontrol>
 
 
     <controls>
@@ -14,11 +14,11 @@
                 <param name="height" value="920" />
             </include>
 
-            <control type="label" id="20">
+            <control type="label" id="2">
                 <include>Dialog_Standard_Header</include>
             </control>
 
-            <control type="grouplist" id="9">
+            <control type="grouplist" id="3">
                 <description>button area</description>
                 <left>20</left>
                 <top>110</top>
@@ -26,12 +26,12 @@
                 <height>370</height>
                 <itemgap>10</itemgap>
                 <onleft>30</onleft>
-                <onright>2</onright>
-                <onup>9</onup>
-                <ondown>9</ondown>
+                <onright>5</onright>
+                <onup>3</onup>
+                <ondown>3</ondown>
             </control>
 
-            <control type="grouplist" id="2">
+            <control type="grouplist" id="5">
                 <description>control area</description>
                 <right>20</right>
                 <top>110</top>
@@ -40,44 +40,44 @@
                 <itemgap>10</itemgap>
                 <onup>9001</onup>
                 <ondown>9001</ondown>
-                <onleft>9</onleft>
-                <onright>9</onright>
+                <onleft>3</onleft>
+                <onright>3</onright>
                 <usecontrolcoords>true</usecontrolcoords>
             </control>
 
-            <control type="togglebutton" id="13">
+            <control type="togglebutton" id="10">
                 <description>Default Category Button</description>
                 <width>400</width>
                 <include>Dialog_Standard_ListButton</include>
             </control>
 
-            <control type="button" id="3">
+            <control type="button" id="7">
                 <description>Default Button</description>
                 <include>Dialog_Standard_ListButton</include>
             </control>
 
-            <control type="radiobutton" id="4">
+            <control type="radiobutton" id="8">
                 <description>Default RadioButton</description>
                 <radioposx>885</radioposx>
                 <include>Dialog_Standard_ListButton</include>
             </control>
 
-            <control type="spincontrolex" id="5">
+            <control type="spincontrolex" id="9">
                 <description>Default spincontrolex</description>
                 <reverse>true</reverse>
                 <include>Dialog_Standard_ListButton</include>
             </control>
 
-            <control type="label" id="7">
+            <control type="label" id="14">
                 <include>Dialog_Standard_HintLabel</include>
             </control>
 
-            <control type="image" id="6">
+            <control type="image" id="11">
                 <description>Default Seperator</description>
                 <visible>false</visible>
             </control>
 
-            <control type="sliderex" id="8">
+            <control type="sliderex" id="13">
                 <description>Default Slider</description>
                 <width>969</width>
                 <include>Dialog_Standard_ListButton</include>
@@ -94,22 +94,22 @@
 
             <!-- Ok Cancel -->
             <control type="grouplist" id="9001">
-                <onup>2</onup>
+                <onup>5</onup>
                 <right>20</right>
                 <align>right</align>
                 <include>Dialog_Standard_OkCancel_GroupList</include>
 
-                <control type="button" id="10" description="OK">
+                <control type="button" id="28" description="OK">
                     <label>186</label>
                     <include>Dialog_Standard_OkCancel</include>
                 </control>
 
-                <control type="button" id="11" description="Cancel">
+                <control type="button" id="29" description="Cancel">
                     <label>222</label>
                     <include>Dialog_Standard_OkCancel</include>
                 </control>
 
-                <control type="button" id="12" description="Cancel">
+                <control type="button" id="30" description="Cancel">
                     <label>409</label>
                     <include>Dialog_Standard_OkCancel</include>
                 </control>
