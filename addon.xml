@@ -20,10 +20,12 @@
        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
     </extension>
     <extension point="xbmc.addon.metadata">
-       <summary lang="de_de">Sanfte Farbverläufe, Pixel-Highlights und sichtbares Fanart</summary>
-	   <summary lang="en_gb">Soft gradients, pixel highlights and visible fanart</summary>
-       <description lang="de_de">(fuse)neue ist ein sehr sauber aussehender Skin mit horizontalem Obermenü, der im gesamten Skin niedrige Listenansichtstypen verwendet, um Fanart zu präsentieren. Die Home-Menüleiste ist von überall aus durch Drücken von „nach oben“ zugänglich, sodass Sie nie wieder „Go Home“ müssen".</description>
-       <description lang="en_gb">(fuse)neue is a very clean looking skin with horizontal style top menu which utilises low list viewtypes throughout the skin in order to showcase fanart. The home menu bar is accessible from anywhere by pressing up, minimising the need to ever "go home".</description>
+	<summary lang="de_de">Sanfte Farbverläufe, Pixel-Highlights und sichtbares Fanart</summary>
+	<summary lang="en_gb">Soft gradients, pixel highlights and visible fanart</summary>
+	<summary lang="he_il">מעברי צבע רכים, הדגשות פיקסלים ופאנארט גלוי</summary>
+	<description lang="de_de">(fuse)neue ist ein sehr sauber aussehender Skin mit horizontalem Obermenü, der im gesamten Skin niedrige Listenansichtstypen verwendet, um Fanart zu präsentieren. Die Home-Menüleiste ist von überall aus durch Drücken von „nach oben“ zugänglich, sodass Sie nie wieder „Go Home“ müssen".</description>
+	<description lang="en_gb">(fuse)neue is a very clean looking skin with horizontal style top menu which utilises low list viewtypes throughout the skin in order to showcase fanart. The home menu bar is accessible from anywhere by pressing up, minimising the need to ever "go home".</description>
+	<description lang="he_il">(fuse)neue הוא עור נקי מאוד למראה עם תפריט עליון בסגנון אופקי אשר משתמש בסוגי תצוגה נמוכים בכל העור על מנת להציג פאארט. שורת התפריט הביתית נגישה מכל מקום על ידי לחיצה למעלה, וממזערת את הצורך אי פעם "ללכת הביתה".</description>
 	   <platform>all</platform>
        <license>Creative Commons Non Commercial 3.0 License</license>
        <assets>
