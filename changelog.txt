@@ -1,5 +1,5 @@
 [B]1.0.6[/B]
-skin translated into German
+skin translated into German and Russian
 addon.xml updated the requirements for kodi nexus
 
 [B]1.0.5[/B]
